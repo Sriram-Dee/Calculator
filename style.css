@@ -46,14 +46,16 @@ button{
     border: none;
     font-size: 1.2rem;
     color: #fff;
-    box-shadow: -2px -2px 5px #444 , 2px 2px 5px black;
+    box-shadow: -2px -2px 5px #444 , 2px 2px 5px black, inset 0px 0px 15px #222 ;
 }
 
 button:hover{
     background-color: #333;
 }
 button:active{
-    background-color: #444;
+    background-color: #111;
+    font-size: 1rem;
+    box-shadow: inset 1px 1px 5px #222, inset -1px -1px 3px #767676;
 }
 
 .operator{
