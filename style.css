@@ -24,6 +24,7 @@ body{
     height: 60px;
     background-color: transparent;
     border: none;
+    outline: none;
     color: #fff;
     font-size: 2.5rem;
     padding: 10px;
